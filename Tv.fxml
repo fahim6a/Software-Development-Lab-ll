@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="584.0" prefWidth="1104.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="ecard.TvController">
+   <children>
+      <ImageView fitHeight="255.0" fitWidth="314.0" layoutX="14.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/Samsung.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="180.0" fitWidth="376.0" layoutX="14.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/apple-tv-with-tv-set.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="521.0" layoutY="14.0" text="Tv Store">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="285.0" text="SAMSUNG QLED 8K TV ">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="533.0" text="Apple tvOS 13.4">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="597.0" layoutY="40.0" text="Key Features">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="425.0" layoutY="74.0" text="The QLED 8K TVs offer 33 million pixel ">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="425.0" layoutY="120.0" text="8K AI Upscaling technology based">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="425.0" layoutY="162.0" text="Quantum Processor">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="610.0" layoutY="162.0" text="Google Assistant">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="425.0" layoutY="208.0" text="More Details">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="tfvisit" layoutX="591.0" layoutY="209.0" mnemonicParsing="false" onAction="#visitbutton" prefHeight="30.0" prefWidth="124.0" text="Visit">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="891.0" layoutY="51.0" text="In Stock">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="887.0" layoutY="89.0" text="65-inch">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="868.0" layoutY="130.0" text="10,99,900">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="tforder" layoutX="875.0" layoutY="195.0" mnemonicParsing="false" onAction="#orderbutton" prefHeight="28.0" prefWidth="114.0" text="Order Now" />
+      <Label layoutX="411.0" layoutY="328.0" text="A12 Bionic chip and HDMI 2.1 input">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="411.0" layoutY="371.0" text="HDR support">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="411.0" layoutY="418.0" text="arm64e architecture">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="411.0" layoutY="464.0" text="4K TV with siri">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="654.0" layoutY="426.0" text="Not Enough ?">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="tfgfmdetals" layoutX="632.0" layoutY="466.0" mnemonicParsing="false" onAction="#detailsbutton" prefHeight="35.0" prefWidth="166.0" text="Go For More Details" />
+      <Label layoutX="896.0" layoutY="329.0" text="In Stock">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="896.0" layoutY="366.0" text="55-inch">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="875.0" layoutY="399.0" prefHeight="54.0" prefWidth="138.0" text="7,45,999">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="tfconfirm" layoutX="891.0" layoutY="469.0" mnemonicParsing="false" onAction="#confirmbutton" prefHeight="30.0" prefWidth="105.0" text="Confirm Now" />
+      <Label layoutX="567.0" layoutY="284.0" text="Key Features">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="tfback" layoutX="541.0" layoutY="535.0" mnemonicParsing="false" onAction="#backbutton" prefHeight="17.0" prefWidth="91.0" text="Back" />
+      <Button fx:id="tfnext" layoutX="651.0" layoutY="534.0" mnemonicParsing="false" onAction="#nextbutton" prefHeight="18.0" prefWidth="91.0" text="Next" />
+   </children>
+</AnchorPane>

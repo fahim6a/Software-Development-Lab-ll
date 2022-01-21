@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="629.0" prefWidth="931.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ecard.ChineseController">
+   <children>
+      <Label layoutX="407.0" layoutY="28.0" text="Chinese">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="186.0" fitWidth="258.0" layoutX="20.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/Chilli-Garlic-Noodles-Veg.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="43.0" layoutY="233.0" text="Chowmein">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="163.0" layoutY="236.0" mnemonicParsing="false" onAction="#Chowmeinbutton" prefHeight="20.0" prefWidth="104.0" text="Order" />
+      <Label layoutX="287.0" layoutY="134.0" text="175 BDT">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="258.0" fitWidth="282.0" layoutX="551.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/shutterstock_741885331.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="587.0" layoutY="269.0" text="Century egg">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="707.0" layoutY="272.0" mnemonicParsing="false" onAction="#eggbuton" prefHeight="20.0" prefWidth="104.0" text="Order" />
+      <Label layoutX="839.0" layoutY="151.0" text="500 BDT">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="188.0" fitWidth="322.0" layoutX="25.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/kung_pao_chicken.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="37.0" layoutY="490.0" text="Kung Pao chicken">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="63.0" layoutY="528.0" mnemonicParsing="false" onAction="#kungbutton" prefHeight="20.0" prefWidth="104.0" text="Order" />
+      <Label layoutX="203.0" layoutY="490.0" text="455 BDT">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="196.0" fitWidth="353.0" layoutX="575.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/3b.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="586.0" layoutY="541.0" text="Peking Duck">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="655.0" layoutY="580.0" mnemonicParsing="false" onAction="#duckbutton" prefHeight="20.0" prefWidth="104.0" text="Order" />
+      <Label layoutX="722.0" layoutY="541.0" text="999 BDT">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="196.0" fitWidth="230.0" layoutX="313.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/Durian-Mooncake.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="305.0" layoutY="433.0" text="Mooncake">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="355.0" layoutY="477.0" mnemonicParsing="false" onAction="#monocakebutton" prefHeight="20.0" prefWidth="104.0" text="Order" />
+      <Label layoutX="428.0" layoutY="433.0" text="199 BDT">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="352.0" layoutY="564.0" mnemonicParsing="false" onAction="#backbutton" prefHeight="30.0" prefWidth="109.0" text="Back" />
+      <Button layoutX="298.0" layoutY="185.0" mnemonicParsing="false" onAction="#cmnt" text="Comment" />
+      <Button layoutX="468.0" layoutY="185.0" mnemonicParsing="false" onAction="#cmnt" text="Comment" />
+      <Button layoutX="194.0" layoutY="528.0" mnemonicParsing="false" onAction="#cmnt" text="Comment" />
+      <Button layoutX="799.0" layoutY="580.0" mnemonicParsing="false" onAction="#cmnt" text="Comment" />
+      <Button layoutX="482.0" layoutY="477.0" mnemonicParsing="false" onAction="#cmnt" text="Comment" />
+   </children>
+</AnchorPane>

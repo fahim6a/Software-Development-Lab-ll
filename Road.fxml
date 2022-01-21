@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="583.0" prefWidth="810.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ecard.RoadController">
+   <children>
+      <Label layoutX="354.0" layoutY="14.0" text="Road Map">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="tfInsight" layoutX="111.0" layoutY="112.0" mnemonicParsing="false" onAction="#InsightsButton" prefHeight="27.0" prefWidth="122.0" text="Insights" />
+      <Button fx:id="tfCategory" layoutX="529.0" layoutY="333.0" mnemonicParsing="false" onAction="#CategoryButton" prefHeight="27.0" prefWidth="122.0" text="Category" />
+      <Label alignment="CENTER" layoutX="395.0" layoutY="40.0" prefHeight="272.0" prefWidth="390.0" text="insights improve business performance and drive business behavior by  business-critical data for quicker analysis,  empowering users to meet their goals, targets, and deadlines" wrapText="true">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="333.0" prefHeight="106.0" prefWidth="244.0" text="Any of several fundamental and distinct classes to which entities or concepts belong" wrapText="true">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="203.0" fitWidth="295.0" layoutX="607.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/Abortion.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="85.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/circle2.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="322.0" layoutY="419.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/animation.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

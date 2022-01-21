@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="531.0" prefWidth="1115.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="ecard.SoftwareController">
+   <children>
+      <Label layoutX="386.0" layoutY="14.0" text="Software">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="178.0" fitWidth="269.0" layoutX="34.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/Adobe-Photography-Plan.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="69.0" layoutY="212.0" text="Adobe package ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="314.0" layoutY="121.0" text="1100/Mo BDT">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="237.0" layoutY="215.0" mnemonicParsing="false" onAction="#purchasebutton" prefHeight="18.0" prefWidth="122.0" text="Purchase" />
+      <ImageView fitHeight="154.0" fitWidth="345.0" layoutX="457.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/adobe-premiere-pro-cc-vr-video-editing.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="464.0" layoutY="215.0" text="Premiere pro">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="594.0" layoutY="229.0" mnemonicParsing="false" onAction="#purchasebutton" prefHeight="18.0" prefWidth="122.0" text="Purchase" />
+      <Label layoutX="468.0" layoutY="248.0" text="700/mo BDT">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="154.0" fitWidth="289.0" layoutX="790.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/expressvpn-vertical-logo-white-on-red.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="802.0" layoutY="223.0" text="ExpressVPN">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="932.0" layoutY="237.0" mnemonicParsing="false" onAction="#purchasebutton" prefHeight="18.0" prefWidth="122.0" text="Purchase" />
+      <Label layoutX="806.0" layoutY="256.0" text="150/mo BDT">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="143.0" fitWidth="255.0" layoutX="34.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/all.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="73.0" layoutY="443.0" text="Teams">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="172.0" layoutY="458.0" mnemonicParsing="false" onAction="#purchasebutton" prefHeight="18.0" prefWidth="122.0" text="Purchase" />
+      <Label layoutX="46.0" layoutY="477.0" text="300/mo BDT">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="193.0" fitWidth="254.0" layoutX="467.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/397.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="482.0" layoutY="445.0" text="Zoom">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="581.0" layoutY="460.0" mnemonicParsing="false" onAction="#purchasebutton" prefHeight="18.0" prefWidth="122.0" text="Purchase" />
+      <Label layoutX="455.0" layoutY="479.0" text="250/mo BDT">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="162.0" fitWidth="254.0" layoutX="807.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/maxresdefault.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="821.0" layoutY="452.0" text="Camtasia">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="936.0" layoutY="468.0" mnemonicParsing="false" onAction="#purchasebutton" prefHeight="18.0" prefWidth="122.0" text="Purchase" />
+      <Label layoutX="810.0" layoutY="487.0" text="250/mo BDT">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="349.0" layoutY="468.0" mnemonicParsing="false" onAction="#backbutton" prefHeight="26.0" prefWidth="58.0" text="Back" />
+   </children>
+</AnchorPane>

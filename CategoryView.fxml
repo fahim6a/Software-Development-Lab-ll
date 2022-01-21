@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="519.0" prefWidth="830.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="ecard.CategoryViewController">
+   <children>
+      <Label alignment="CENTER" layoutX="338.0" layoutY="14.0" prefHeight="24.0" prefWidth="133.0" text="Category View">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <VBox layoutX="191.0" layoutY="190.0" prefHeight="306.0" prefWidth="386.0">
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="56.0" prefWidth="386.0" spacing="20.0">
+               <children>
+                  <Button fx:id="tfCamera" mnemonicParsing="false" onAction="#CameraButton" prefHeight="50.0" prefWidth="182.0" text="Camera" />
+                  <Button fx:id="tfPc" mnemonicParsing="false" onAction="#PcButton" prefHeight="50.0" prefWidth="182.0" text="PC Gear" />
+               </children>
+            </HBox>
+            <HBox alignment="TOP_CENTER" prefHeight="56.0" prefWidth="386.0" spacing="20.0">
+               <children>
+                  <Button fx:id="tfTv" mnemonicParsing="false" onAction="#TvButton" prefHeight="50.0" prefWidth="182.0" text="Tv" />
+                  <Button fx:id="tfFood" mnemonicParsing="false" onAction="#FoodButton" prefHeight="50.0" prefWidth="182.0" text="Food" />
+               </children>
+            </HBox>
+            <HBox alignment="TOP_CENTER" prefHeight="56.0" prefWidth="386.0" spacing="20.0">
+               <children>
+                  <Button fx:id="tfSub" mnemonicParsing="false" onAction="#SubButton" prefHeight="50.0" prefWidth="182.0" text="Subscriptions" />
+                  <Button fx:id="tfGames" mnemonicParsing="false" onAction="#GamesButton" prefHeight="50.0" prefWidth="182.0" text="Games" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="46.0" fitWidth="51.0" onMouseClicked="#handleBackBtn" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/back.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <ImageView fitHeight="246.0" fitWidth="248.0" layoutX="578.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/pngtree-.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="297.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/animation.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="653.0" prefWidth="1067.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="ecard.GamesController">
+   <children>
+      <ImageView fitHeight="158.0" fitWidth="324.0" layoutX="22.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/valorant-Title-Image.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="452.0" layoutY="14.0" text="Game Download Zone">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="239.0" text="valorant">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="144.0" layoutY="241.0" mnemonicParsing="false" onAction="#ValorentDownloadButton" prefHeight="26.0" prefWidth="107.0" text="Download" />
+      <ImageView fitHeight="179.0" fitWidth="281.0" layoutX="390.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/updates-catspandas_latest.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="390.0" layoutY="240.0" text="Minecraft">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="492.0" layoutY="242.0" mnemonicParsing="false" onAction="#minecraftDownloadButton" prefHeight="10.0" prefWidth="107.0" text="Download" />
+      <ImageView fitHeight="158.0" fitWidth="274.0" layoutX="740.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/capsule_616x353.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="750.0" layoutY="239.0" text="Apex legends">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="898.0" layoutY="242.0" mnemonicParsing="false" onAction="#ApexlegendsDownloadButton" prefHeight="16.0" prefWidth="107.0" text="Download" />
+      <ImageView fitHeight="180.0" fitWidth="274.0" layoutX="18.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/mft_background.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="45.0" layoutY="521.0" text="Grand Theft Auto V">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="45.0" layoutY="564.0" mnemonicParsing="false" onAction="#GrandDownloadButton" prefHeight="10.0" prefWidth="134.0" text="Download" />
+      <ImageView fitHeight="173.0" fitWidth="281.0" layoutX="390.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/genshin-impact-1241931.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="452.0" layoutY="521.0" text="Genshin impact ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="456.0" layoutY="564.0" mnemonicParsing="false" onAction="#GenshinDownloadButton" prefHeight="14.0" prefWidth="134.0" text="Download" />
+      <ImageView fitHeight="166.0" fitWidth="274.0" layoutX="745.0" layoutY="331.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/capsule_616x353%20(1).jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="789.0" layoutY="521.0" text="Forza Horizon 5">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="791.0" layoutY="563.0" mnemonicParsing="false" onAction="#ForzaDownloadButton" prefHeight="26.0" prefWidth="134.0" text="Download" />
+      <Button layoutX="277.0" layoutY="604.0" mnemonicParsing="false" onAction="#backbutton" text="Back" />
+      <Button layoutX="680.0" layoutY="604.0" mnemonicParsing="false" onAction="#nextbutton" text="Next" />
+   </children>
+</AnchorPane>

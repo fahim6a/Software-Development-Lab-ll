@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="492.0" prefWidth="849.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="ecard.FeaturesController">
+   <children>
+      <ImageView fitHeight="508.0" fitWidth="904.0" layoutX="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/dataimagejpegbase649j4AAQ21.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

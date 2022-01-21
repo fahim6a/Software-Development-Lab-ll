@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="690.0" prefWidth="1107.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ecard.PcController">
+   <children>
+      <ImageView fitHeight="215.0" fitWidth="325.0" layoutX="30.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/product.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="173.0" fitWidth="314.0" layoutX="708.0" layoutY="365.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/portable-gaming-keyboard.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="519.0" layoutY="34.0" text="Pc Store">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="314.0" text="MONITOR Optix MAG241C">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="473.0" layoutY="153.0" text="Features">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="351.0" layoutY="195.0" text="Curved Gaming display (1500R) – The best gameplay immersion.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="351.0" layoutY="223.0" text="144Hz Refresh Rate – Real smooth gaming.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="351.0" layoutY="250.0" text="True colors – DCI-P3 90% &amp; sRGB 115%.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="351.0" layoutY="277.0" text="Anti-Flicker and Less Blue Light ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="351.0" layoutY="311.0" text="AMD FreeSync™ Premium Technology">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="823.0" layoutY="276.0" text="Visit MSI official Page ">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="852.0" layoutY="314.0" mnemonicParsing="false" onAction="#MsiLinkButton" prefHeight="27.0" prefWidth="110.0" text="Click Here" />
+      <Label layoutX="351.0" layoutY="102.0" text="30% off!! Winter sales 23.6 Inch only  ‎BDT 26,500.00 ">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="826.0" layoutY="101.0" text="In Stock">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="67.0" layoutY="352.0" mnemonicParsing="false" onAction="#pcshopbutton" prefHeight="0.0" prefWidth="151.0" text="Shop Now" />
+      <Label layoutX="766.0" layoutY="556.0" text="Portable eSports Keyboards">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="347.0" layoutY="391.0" text=" Optical Switches for ultra-fast actuation">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="467.0" layoutY="364.0" text="Features">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="417.0" layoutY="424.0" text="Brand's cutting-edge">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="315.0" layoutY="458.0" text="reduce the amount of friction created during use ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="807.0" layoutY="600.0" mnemonicParsing="false" onAction="#KeyboardShopButton" prefHeight="26.0" prefWidth="110.0" text="Shop Now" />
+      <Button layoutX="445.0" layoutY="543.0" mnemonicParsing="false" onAction="#keyboardLinkButton" prefHeight="18.0" prefWidth="110.0" text="Click Here" />
+      <Label layoutX="396.0" layoutY="504.0" text="Visit Website For More Details">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="98.0" layoutY="436.0" text="In Stock">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="471.0" text=" ‎BDT 20000 ">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="72.0" layoutY="601.0" mnemonicParsing="false" onAction="#BackButton" prefHeight="26.0" prefWidth="81.0" text="Back" />
+      <Button layoutX="177.0" layoutY="601.0" mnemonicParsing="false" onAction="#NextButton" prefHeight="26.0" prefWidth="81.0" text="Next" />
+   </children>
+</AnchorPane>

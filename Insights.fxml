@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="526.0" prefWidth="795.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ecard.InsightsController">
+   <children>
+      <Label alignment="CENTER" layoutX="346.0" layoutY="22.0" prefHeight="22.0" prefWidth="78.0" text="Insights">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="tfAccount" layoutX="565.0" layoutY="236.0" mnemonicParsing="false" onAction="#AccountButton" prefHeight="20.0" prefWidth="113.0" text="Account" />
+      <ImageView fitHeight="292.0" fitWidth="333.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/gdghmapi.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="213.0" fitWidth="255.0" layoutX="516.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/insight-.png" />
+         </image></ImageView>
+      <Button fx:id="tfHome" layoutX="385.0" layoutY="432.0" mnemonicParsing="false" onAction="#HomeButton" prefHeight="27.0" prefWidth="102.0" text="Home" />
+      <Button fx:id="tfemail" layoutX="193.0" layoutY="333.0" mnemonicParsing="false" onAction="#Emailbutton" prefHeight="26.0" prefWidth="102.0" text="Send Email" />
+      <Button fx:id="pnt" layoutX="43.0" layoutY="333.0" mnemonicParsing="false" onAction="#print" prefHeight="19.0" prefWidth="95.0" text="Print" />
+      <Button layoutX="113.0" layoutY="272.0" mnemonicParsing="false" onAction="#MonitorButton" text="Business Monitor" />
+      <Button layoutX="105.0" layoutY="389.0" mnemonicParsing="false" onAction="#commentsbutton" prefHeight="6.0" prefWidth="114.0" text="Comments" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="603.0" prefWidth="853.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="ecard.CommentController">
+   <children>
+      <Label layoutX="294.0" layoutY="30.0" text="User Review And Comment">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name" alignment="CENTER" layoutX="302.0" layoutY="87.0" prefHeight="15.0" prefWidth="218.0" promptText="Your Name" />
+      <TextField fx:id="email" alignment="CENTER" layoutX="302.0" layoutY="125.0" prefHeight="15.0" prefWidth="218.0" promptText="Your Email" />
+      <TextField fx:id="comment" alignment="CENTER" layoutX="302.0" layoutY="162.0" prefHeight="15.0" prefWidth="218.0" promptText="Your Comment" />
+      <TextArea fx:id="area" layoutX="54.0" layoutY="207.0" prefHeight="330.0" prefWidth="745.0" />
+      <Button layoutX="560.0" layoutY="87.0" mnemonicParsing="false" onAction="#submitbutton" prefHeight="10.0" prefWidth="87.0" text="Submit" />
+      <Button layoutX="647.0" layoutY="552.0" mnemonicParsing="false" onAction="#clearbutton" prefHeight="10.0" prefWidth="87.0" text="Clear" />
+      <Button layoutX="312.0" layoutY="552.0" mnemonicParsing="false" onAction="#backbutton" prefHeight="10.0" prefWidth="87.0" text="Back" />
+   </children>
+</AnchorPane>
